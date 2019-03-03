@@ -1,0 +1,37 @@
+﻿Build started 3/4/2019 12:45:37 AM.
+     1>Project "C:\Users\igindac\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>InitializeBuildStatus:
+         Creating "Debug\ClientRestApi.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       VcpkgTripletSelection:
+         Using triplet "x86-windows" from "C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\"
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         ConsoleApplication1.vcxproj -> C:\Users\igindac\source\repos\ConsoleApplication1\Debug\ClientRestApi.exe
+       AppLocalFromInstalled:
+         C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\igindac\source\repos\ConsoleApplication1\Debug\ClientRestApi.exe" "C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\debug\bin" "Debug\ClientRestApi.tlog\ClientRestApi.write.1u.tlog" "Debug\vcpkg.applocal.log"
+         C:\Users\igindac\source\repos\ConsoleApplication1\Debug\cpprest_2_10d.dll
+         C:\Users\igindac\source\repos\ConsoleApplication1\Debug\boost_date_time-vc141-mt-gd-x32-1_69.dll
+         C:\Users\igindac\source\repos\ConsoleApplication1\Debug\SSLEAY32.dll
+         C:\Users\igindac\source\repos\ConsoleApplication1\Debug\LIBEAY32.dll
+         C:\Users\igindac\source\repos\ConsoleApplication1\Debug\zlibd1.dll
+       _CopyFilesMarkedCopyLocal:
+         Touching "C:\Users\igindac\source\repos\ConsoleApplication1\ConsoleApplication1\Debug\ConsoleApplication1.vcxproj.CopyComplete".
+       FinalizeBuildStatus:
+         Deleting file "Debug\ClientRestApi.tlog\unsuccessfulbuild".
+         Touching "Debug\ClientRestApi.tlog\ClientRestApi.lastbuildstate".
+     1>Done Building Project "C:\Users\igindac\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\igindac\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target) (1) ->
+       (PrepareForBuild target) -> 
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11

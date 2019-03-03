@@ -1,0 +1,32 @@
+﻿Build started 3/3/2019 9:05:09 PM.
+     1>Project "C:\Users\igindac\source\repos\ConsoleApplication1\TestClient\TestClient.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\TestClient.tlog\unsuccessfulbuild".
+       VcpkgTripletSelection:
+         Using triplet "x86-windows" from "C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\"
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\igindac\source\repos\ConsoleApplication1\Release\TestClient.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\igindac\source\repos\ConsoleApplication1\mysql-connector-c++-8.0.15-win32\lib\vs14" /LIBPATH:"C:\Users\igindac\source\repos\ConsoleApplication1\mysql-connector-c++-noinstall-1.0.5-win32-vs2005\lib" /LIBPATH:"C:\Users\igindac\source\repos\ConsoleApplication1\mysql-connector-c++-8.0.15-win32\lib" /LIBPATH:"C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\lib" /LIBPATH:"C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\lib\manual-link" "mysqlcppconn-static.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\igindac\source\repos\ConsoleApplication1\Release\TestClient.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\igindac\source\repos\ConsoleApplication1\Release\TestClient.lib" /MACHINE:X86 /SAFESEH Release\pch.obj
+         Release\TestClient.obj
+         C:\Users\igindac\source\repos\ConsoleApplication1\Release\Utils.lib
+     1>TestClient.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sql::mysql::MySQL_Connection::MySQL_Connection(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0MySQL_Connection@mysql@sql@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+     1>TestClient.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sql::mysql::MySQL_Connection::~MySQL_Connection(void)" (__imp_??1MySQL_Connection@mysql@sql@@UAE@XZ)
+     1>TestClient.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall sql::mysql::MySQL_Connection::getSchema(void)" (__imp_?getSchema@MySQL_Connection@mysql@sql@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+     1>C:\Users\igindac\source\repos\ConsoleApplication1\Release\TestClient.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\Users\igindac\source\repos\ConsoleApplication1\TestClient\TestClient.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+       "C:\Users\igindac\source\repos\ConsoleApplication1\TestClient\TestClient.vcxproj" (Build target) (1) ->
+       (Link target) -> 
+         TestClient.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sql::mysql::MySQL_Connection::MySQL_Connection(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0MySQL_Connection@mysql@sql@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+         TestClient.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sql::mysql::MySQL_Connection::~MySQL_Connection(void)" (__imp_??1MySQL_Connection@mysql@sql@@UAE@XZ)
+         TestClient.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall sql::mysql::MySQL_Connection::getSchema(void)" (__imp_?getSchema@MySQL_Connection@mysql@sql@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+         C:\Users\igindac\source\repos\ConsoleApplication1\Release\TestClient.exe : fatal error LNK1120: 3 unresolved externals
+
+    0 Warning(s)
+    4 Error(s)
+
+Time Elapsed 00:00:00.88

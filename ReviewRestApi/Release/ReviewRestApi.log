@@ -1,0 +1,39 @@
+﻿Build started 3/3/2019 8:11:49 PM.
+     1>Project "C:\Users\igindac\source\repos\ConsoleApplication1\ReviewRestApi\ReviewRestApi.vcxproj" on node 3 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\ReviewRestApi.tlog\ReviewRestApi.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\ReviewRestApi.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       VcpkgTripletSelection:
+         Using triplet "x86-windows" from "C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\"
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /I../Utils /I"C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\include" /Zi /nologo /W3 /WX- /diagnostics:classic /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"pch.h" /Fp"Release\ReviewRestApi.pch" /Fo"Release\\" /Fd"Release\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /I../Utils /I"C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\include" /Zi /nologo /W3 /WX- /diagnostics:classic /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"Release\ReviewRestApi.pch" /Fo"Release\\" /Fd"Release\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ReviewRestApi.cpp
+         ReviewRestApi.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\igindac\source\repos\ConsoleApplication1\Release\ReviewRestApi.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\lib" /LIBPATH:"C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\igindac\source\repos\ConsoleApplication1\Release\ReviewRestApi.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\igindac\source\repos\ConsoleApplication1\Release\ReviewRestApi.lib" /MACHINE:X86 /SAFESEH Release\pch.obj
+         Release\ReviewRestApi.obj
+         Generating code
+         All 3776 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         ReviewRestApi.vcxproj -> C:\Users\igindac\source\repos\ConsoleApplication1\Release\ReviewRestApi.exe
+       AppLocalFromInstalled:
+         C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\igindac\source\repos\ConsoleApplication1\Release\ReviewRestApi.exe" "C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x86-windows\bin" "Release\ReviewRestApi.tlog\ReviewRestApi.write.1u.tlog" "Release\vcpkg.applocal.log"
+         C:\Users\igindac\source\repos\ConsoleApplication1\Release\cpprest_2_10.dll
+         C:\Users\igindac\source\repos\ConsoleApplication1\Release\boost_date_time-vc141-mt-x32-1_69.dll
+         C:\Users\igindac\source\repos\ConsoleApplication1\Release\SSLEAY32.dll
+         C:\Users\igindac\source\repos\ConsoleApplication1\Release\LIBEAY32.dll
+         C:\Users\igindac\source\repos\ConsoleApplication1\Release\zlib1.dll
+       _CopyFilesMarkedCopyLocal:
+         Touching "C:\Users\igindac\source\repos\ConsoleApplication1\ReviewRestApi\Release\ReviewRestApi.vcxproj.CopyComplete".
+       FinalizeBuildStatus:
+         Deleting file "Release\ReviewRestApi.tlog\unsuccessfulbuild".
+         Touching "Release\ReviewRestApi.tlog\ReviewRestApi.lastbuildstate".
+     1>Done Building Project "C:\Users\igindac\source\repos\ConsoleApplication1\ReviewRestApi\ReviewRestApi.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:07.25

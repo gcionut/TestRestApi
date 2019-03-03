@@ -1,0 +1,32 @@
+﻿Build started 3/3/2019 7:36:22 PM.
+     1>Project "C:\Users\igindac\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Debug\ClientRestApi.tlog\ClientRestApi.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "x64\Debug\ClientRestApi.tlog\unsuccessfulbuild".
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x64-windows\"
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /I"C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x64-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"pch.h" /Fp"x64\Debug\ClientRestApi.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc141.pdb" /Gd /TP /FC /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /I"C:\Users\igindac\source\repos\ConsoleApplication1\packages\vcpkg-export-20190301-232129.1.0.0\installed\x64-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"x64\Debug\ClientRestApi.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc141.pdb" /Gd /TP /FC /errorReport:prompt ClientRestApi.cpp
+         ClientRestApi.cpp
+     1>c:\users\igindac\source\repos\consoleapplication1\consoleapplication1\clientrestapi.cpp(16): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\igindac\source\repos\consoleapplication1\consoleapplication1\clientrestapi.cpp(16): fatal error C1083: Cannot open include file: 'cpprest/http_listener.h': No such file or directory
+     1>Done Building Project "C:\Users\igindac\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+       "C:\Users\igindac\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Rebuild target) (1) ->
+       (ClCompile target) -> 
+         c:\users\igindac\source\repos\consoleapplication1\consoleapplication1\clientrestapi.cpp(16): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+
+
+       "C:\Users\igindac\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Rebuild target) (1) ->
+       (ClCompile target) -> 
+         c:\users\igindac\source\repos\consoleapplication1\consoleapplication1\clientrestapi.cpp(16): fatal error C1083: Cannot open include file: 'cpprest/http_listener.h': No such file or directory
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.76

@@ -1,0 +1,11 @@
+﻿Build started 3/4/2019 1:21:31 AM.
+     1>Project "C:\Users\igindac\source\repos\ConsoleApplication1\TestClient\TestClient.vcxproj" on node 2 (Clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\TestClient.tlog\TestClient.lastbuildstate".
+     1>Done Building Project "C:\Users\igindac\source\repos\ConsoleApplication1\TestClient\TestClient.vcxproj" (Clean target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.02
